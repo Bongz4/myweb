@@ -177,7 +177,7 @@ export default function PortfolioCvWebsite() {
 
       case "About":
         return (
-          <div className="grid gap-10 lg:grid-cols-[0.8fr_1.2fr]">
+          <div className="grid items-start gap-10 lg:grid-cols-[0.8fr_1.2fr]">
             <div className="overflow-hidden rounded-md border border-amber-200 bg-white p-3 shadow-[0_20px_50px_rgba(120,53,15,0.14)]">
               <div className="aspect-[4/5] overflow-hidden rounded-sm">
                 <img
@@ -187,7 +187,7 @@ export default function PortfolioCvWebsite() {
                 />
               </div>
             </div>
-            <div className="flex flex-col justify-center">
+            <div className="flex flex-col">
               <SectionLabel>About</SectionLabel>
               <h2 className="text-4xl font-bold tracking-[-0.03em] text-slate-950 md:text-5xl">
                 Analytical, structured, and decision-focused.
